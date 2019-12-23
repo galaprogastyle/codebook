@@ -6,8 +6,6 @@ import "@vkontakte/vkui/dist/vkui.css";
 
 import Home from "./panels/Home";
 import Persik from "./panels/Persik";
-import Persik2 from "./panels/Persik2";
-import Lab from "./panels/Lab";
 const App = () => {
   const [activePanel, setActivePanel] = useState("home");
   const [fetchedUser, setUser] = useState(null);
@@ -37,8 +35,6 @@ const App = () => {
     <View activePanel={activePanel} popout={popout}>
       <Home id="home" fetchedUser={fetchedUser} go={go} />
       <Persik id="persik" go={go} />
-      <Persik2 id="persik2" go={go} />
-      <Lab id="Lab" go={go} />
     </View>
   );
 };

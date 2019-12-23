@@ -10,9 +10,9 @@
 
 </div>
 
-# VK Mini Apps: App for studying
+# VK Mini Apps: CodeBook App
 
-## Only for SPBSUE Students
+## HTML & CSS helper
 
 ### For more information, please chat me in VK (Link added to VK logo)
 
