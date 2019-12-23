@@ -46,13 +46,13 @@ const Home = ({ id, go, fetchedUser }) => {
       )}
       <Group title="С чего начнем?">
         <Div>
-          <Button className="Button11" level="2" onClick={go} data-to="html">
-            <a className="a1">HTML</a>
+          <Button className="Button11" level="2">
+            <a>HTML</a>
           </Button>
         </Div>
         <Div>
-          <Button className="Button11" level="2" onClick={go} data-to="css">
-            <a className="a1">CSS</a>
+          <Button className="Button11" level="2">
+            <a>CSS</a>
           </Button>
         </Div>
       </Group>
