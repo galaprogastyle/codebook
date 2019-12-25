@@ -19,7 +19,7 @@ const Home = ({ id, go, fetchedUser }) => {
 
       <Group>
         <Div>
-          <Button size="xl" level="2" onClick={go}>
+          <Button size="xl" level="2" onClick={go} data-to="tags">
             <a>Справочник по тегам</a>
           </Button>
         </Div>

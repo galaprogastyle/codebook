@@ -9,25 +9,13 @@ import Div from "@vkontakte/vkui/dist/components/Div/Div";
 import Avatar from "@vkontakte/vkui/dist/components/Avatar/Avatar";
 import connect from "@vkontakte/vk-connect";
 import "./Persik.css";
-import odin from "../img/1.jpg";
 
 const Home = ({ id, go, fetchedUser }) => {
+  const receivingUserId = 154522988;
+
   return (
     <Panel id={id}>
-      <PanelHeader>CodeBook - CSS</PanelHeader>
-
-      <Group title="С чего начнем?">
-        <Div>
-          <Button className="Button11" level="2">
-            <a>HTML</a>
-          </Button>
-        </Div>
-        <Div>
-          <Button className="Button11" level="2">
-            <a>CSS</a>
-          </Button>
-        </Div>
-      </Group>
+      <PanelHeader>CodeBook - HTML tags</PanelHeader>
     </Panel>
   );
 };

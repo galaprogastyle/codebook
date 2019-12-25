@@ -8,8 +8,10 @@ import Home from "./panels/Home";
 import Html from "./panels/Html";
 import Css from "./panels/Css";
 import Persik from "./panels/Persik";
+
+import Tags from "./panels/Tags";
 const App = () => {
-  const [activePanel, setActivePanel] = useState("html");
+  const [activePanel, setActivePanel] = useState("home");
   const [fetchedUser, setUser] = useState(null);
   const [popout, setPopout] = useState(<ScreenSpinner size="large" />);
 
@@ -39,6 +41,7 @@ const App = () => {
       <Persik id="persik" go={go} />
       <Html id="html" go={go} />
       <Css id="css" go={go} />
+      <Tags id="tags" go={go} />
     </View>
   );
 };
